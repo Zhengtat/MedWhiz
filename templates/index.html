@@ -1,0 +1,341 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <!-- Meta Tags -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="Site keywords here">
+		<meta name="description" content="">
+		<meta name='copyright' content=''>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<!-- Title -->
+        <title>MedWiz</title>
+		<style>
+			.drop-container {
+				border: 2px dashed #ccc;
+				padding: 20px;
+				text-align: center;
+				cursor: pointer;
+			}
+		</style>
+		<!-- Favicon -->
+		<link  href="{{ url_for('static', filename='img/fun-bg.jpg') }}" rel="stylesheet">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link  href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+		<!-- Nice Select CSS -->
+		<link  href="{{ url_for('static', filename='css/nice-select.css') }}" rel="stylesheet">
+		<!-- Font Awesome CSS -->
+		<link  href="{{ url_for('static', filename='css/font-awesome.min.css') }}" rel="stylesheet">
+		<!-- icofont CSS -->
+		<link  href="{{ url_for('static', filename='css/icofont.css') }}" rel="stylesheet">
+		<!-- Slicknav -->
+		<link  href="{{ url_for('static', filename='css/slicknav.min.css') }}" rel="stylesheet">
+		<!-- Owl Carousel CSS -->
+		<link  href="{{ url_for('static', filename='css/owl-carousel.css') }}" rel="stylesheet">
+		<!-- Datepicker CSS -->
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/datepicker.css') }}">,
+		<!-- Animate CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css') }}">
+		<!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+		
+		<!-- Medipro CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+		
+    </head>
+    <body>
+		<!-- Header Area -->
+		<header class="header" >
+			<!-- Topbar -->
+			<div class="topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-5 col-12">
+						</div>
+						<div class="col-lg-6 col-md-7 col-12">
+							<!-- Top Contact -->
+							<ul class="top-contact">
+								<li><i class="fa fa-phone"></i>+65 6123 4567</li>
+								<li><i class="fa fa-envelope"></i><a href="mailto:support@medwiz.com">support@medwiz.com</a></li>
+							</ul>
+							<!-- End Top Contact -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Topbar -->
+			<!-- Header Inner -->
+			<div class="header-inner">
+				<div class="container">
+					<div class="inner">
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-12">
+								<!-- Start Logo -->
+								<div class="logo">
+									<a href="index.html"><img src="{{ url_for('static', filename='img/logo.jpg') }}" alt="#"></a>
+								</div>
+								<!-- End Logo -->
+								<!-- Mobile Nav -->
+								<div class="mobile-nav"></div>
+								<!-- End Mobile Nav -->
+							</div>
+							<div class="col-lg-7 col-md-9 col-12">
+								<!-- Main Menu -->
+								<div class="main-menu">
+									<nav class="navigation">
+										<ul class="nav menu">
+											<li><a href="#">Home</a></li>
+											<li><a href="#">FAQ</a></li>
+											<li><a href="#">Contact Us</a></li>
+										</ul>
+									</nav>
+								</div>
+								<!--/ End Main Menu -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+
+		<!-- Start Why choose -->
+		<section class="why-choose section" >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title">
+							<h2>Bridging the Gap Between Medical Jargon and Peace of Mind. Your Reports, Understood.</h2>
+							<img src="{{ url_for('static', filename='img/section-img.png') }}" alt="#">
+							<p>We Decode Health, We Empower Lives</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-12">
+						<!-- Start Choose Left -->
+						<div class="choose-left">
+							<h3>Who We Are</h3>
+							<p>At MedWiz, we're on a mission to simplify healthcare. We believe everyone deserves clarity about their health without the stress of deciphering complex medical reports. Our cutting-edge software allows users to effortlessly upload reports, and we provide clear, easy-to-understand explanations in layman's terms. MedWiz bridges the gap between technical jargon and peace of mind, helping patients fully grasp their health status and align with their doctors' concerns. </p>
+							<p>With 2 simple steps, we can help you solve the problem of reading complicated reports.</p>
+						</div>
+						<!-- End Choose Left -->
+					</div>
+					<div class="col-lg-6 col-12">
+						<!-- Start Choose Rights -->
+						<div >
+							<a href="index.html"><img src="{{ url_for('static', filename='img/steps .jpg') }}" alt="#"></a>
+						</div>
+						<!-- End Choose Rights -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Why choose -->
+		
+		<!-- Start Appointment -->
+		<section class="appointment">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title">
+							<h2>Upload Your Medical Report Here</h2>
+							<img src="{{ url_for('static', filename='img/section-img.png') }}" alt="#">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-12">
+						<form class="form" action="#">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="form-group">
+										<div class="nice-select form-control wide" tabindex="0"><span class="current">Language</span>
+											<ul class="list">
+												<li data-value="1" class="option selected ">Language</li>
+												<li data-value="2" class="option">English</li>
+												<li data-value="3" class="option">Chinese</li>
+												<li data-value="4" class="option">Malay</li>
+												<li data-value="5" class="option">Tamil</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-12 col-12">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-5 col-md-4 col-12">
+									<div class="form-group">
+										<div class="drop-container" id="dropContainer" ondrop="dropHandler(event)" ondragover="dragOverHandler(event)">
+											<p>Drag & Drop your files here</p>
+											<input type="file" name="pdfFile" id="fileInput" multiple style="display:none" onchange="displayFilePath()">
+											<button onclick="browseFiles()">Browse Files</button>
+										</div>
+										<p id="filePath"></p>
+									</div>
+									
+									<script>
+										function browseFiles() {
+											document.getElementById('fileInput').click();
+										}
+								
+										function dropHandler(event) {
+											event.preventDefault();
+											var files = event.dataTransfer.files;
+											// Handle dropped files if needed
+										}
+								
+										function dragOverHandler(event) {
+											event.preventDefault();
+										}
+								
+										function displayFilePath() {
+											// Get the input element
+											var fileInput = document.getElementById('fileInput');
+								
+											// Get the selected files
+											var files = fileInput.files;
+								
+											// Display the file path(s)
+											var filePathDisplay = document.getElementById('filePath');
+											filePathDisplay.textContent = "File Path(s): ";
+											
+											for (var i = 0; i < files.length; i++) {
+												filePathDisplay.textContent += files[i].name + "; ";
+											}
+										}
+									</script>
+									<div class="form-group login-btn">
+										<button class="btn submitButton"><a href="{{ url_for('submit') }}">Submit</a></button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-6 col-md-12 ">
+						<div class="appointment-image">
+							<img src="{{ url_for('static', filename='img/contact-img.png') }}" alt="#">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Appointment -->
+		
+		
+		<!-- Footer Area -->
+		<footer id="footer" class="footer ">
+			<!-- Footer Top -->
+			<div class="footer-top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer">
+								<h2>About Us</h2>
+								<p>Lorem ipsum dolor sit am consectetur adipisicing elit do eiusmod tempor incididunt ut labore dolore magna.</p>
+								<!-- Social -->
+								<ul class="social">
+									<li><a href="#"><i class="icofont-facebook"></i></a></li>
+									<li><a href="#"><i class="icofont-google-plus"></i></a></li>
+									<li><a href="#"><i class="icofont-twitter"></i></a></li>
+									<li><a href="#"><i class="icofont-vimeo"></i></a></li>
+									<li><a href="#"><i class="icofont-pinterest"></i></a></li>
+								</ul>
+								<!-- End Social -->
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<div class="single-footer f-link">
+								<h2>Quick Links</h2>
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-12">
+										<ul>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Home</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>About Us</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Services</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Cases</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Other Links</a></li>	
+										</ul>
+									</div>
+									<div class="col-lg-6 col-md-6 col-12">
+										<ul>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Consuling</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Finance</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Testimonials</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>FAQ</a></li>
+											<li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</a></li>	
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Footer Top -->
+			<!-- Copyright -->
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-12">
+							<div class="copyright-content">
+								<p>© Copyright 2024  |  All Rights Reserved by <a href="https://www.medwiz.com" target="_blank">medwiz.com</a> </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Copyright -->
+		</footer>
+		<!--/ End Footer Area -->
+		
+		<!-- jquery Min JS -->
+        <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<!-- jquery Migrate JS -->
+		<script src="{{ url_for('static', filename='js/jquery-migrate-3.0.0.js') }}"></script>
+		<!-- jquery Ui JS -->
+		<script src="{{ url_for('static', filename='js/jquery-ui.min.js') }}"></script>
+		<!-- Easing JS -->
+        <script src="{{ url_for('static', filename='js/easing.js') }}"></script>
+		<!-- Color JS -->
+		<script src="{{ url_for('static', filename='js/colors.js') }}"></script>
+		<!-- Popper JS -->
+		<script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+		<!-- Bootstrap Datepicker JS -->
+		<script src="{{ url_for('static', filename='js/bootstrap-datepicker.js') }}"></script>
+		<!-- Jquery Nav JS -->
+        <script src="{{ url_for('static', filename='js/jquery.nav.js') }}"></script>
+		<!-- Slicknav JS -->
+		<script src="{{ url_for('static', filename='js/slicknav.min.js') }}"></script>
+		<!-- ScrollUp JS -->
+        <script src="{{ url_for('static', filename='js/jquery.scrollUp.min.js') }}"></script>
+		<!-- Niceselect JS -->
+		<script src="{{ url_for('static', filename='js/niceselect.js') }}"></script>
+		<!-- Tilt Jquery JS -->
+		<script src="{{ url_for('static', filename='js/tilt.jquery.min.js') }}"></script>
+		<!-- Owl Carousel JS -->
+        <script src="{{ url_for('static', filename='js/owl-carousel.js') }}"></script>
+		<!-- counterup JS -->
+		<script src="{{ url_for('static', filename='js/jquery.counterup.min.js') }}"></script>
+		<!-- Steller JS -->
+		<script src="{{ url_for('static', filename='js/steller.js') }}"></script>
+		<!-- Wow JS -->
+		<script src="{{ url_for('static', filename='js/wow.min.js') }}"></script>
+		<!-- Magnific Popup JS -->
+		<script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+		<!-- Counter Up CDN JS -->
+		<script src="{{ url_for('static', filename='js/jquery.counterup.min.js') }}"></script>
+		<!-- Bootstrap JS -->
+		<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+		<!-- Main JS -->
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
+</html>
